@@ -26,8 +26,9 @@ Here, `WithString` is the type name and `WithStr` is the constructor (convention
 Def: A natural transformation `n` between functors `F,G: C -> D`, written `n: F => G`, satisfies
 1. for each `c \in Ob(C)`, there is a morphism `n(c): Fc -> Gc` s.t.
   - for each morphism `f: c1 -> c2`, the following diagram commutes
+
 ```
-           F(f)
+       F(f)
 Fc1 ----------> Fc2
  |               |
  | n(c1)         | n(c2)
